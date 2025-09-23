@@ -39,7 +39,6 @@ points:
         thumb:
           row_net: P113
         empty:
-          row_net: P115
         bottom:
           row_net: P002
         home:
@@ -93,6 +92,6 @@ pcbs:
         params:
           orientation: up
         where:
-          ref: matrix_inner_top
-          shift: [-9, -1.5]
-          rotate: -180.0
+          ref: matrix_inner_thumb
+          shift: [-8, 19]
+          rotate: 180.0
