@@ -17,34 +17,34 @@ points:
         outer:
           rows.thumb.skip: true
           rows.empty.skip: true
-          key.column_net: P020
+          key.column_net: P031
         pinky:
           rows.thumb.skip: true
           rows.empty.skip: true
-          key.column_net: P022
+          key.column_net: P029
         ring:
           rows.thumb.skip: true
           rows.empty.skip: true
-          key.column_net: P024
+          key.column_net: P002
         middle:
           rows.empty.skip: true
-          key.column_net: P100
+          key.column_net: P115
         index:
           rows.empty.skip: true
-          key.column_net: P011
+          key.column_net: P113
         inner:
           rows.empty.skip: true
-          key.column_net: P017
+          key.column_net: P111
       rows:
         thumb:
-          row_net: P113
+          row_net: P010
         empty:
         bottom:
-          row_net: P002
+          row_net: P017
         home:
-          row_net: P029
+          row_net: P020
         top:
-          row_net: P031
+          row_net: P022
 outlines:
   raw:
     - what: polygon
@@ -93,5 +93,38 @@ pcbs:
           orientation: up
         where:
           ref: matrix_inner_thumb
-          shift: [-8, 19]
+          shift: [-9, 18]
           rotate: 180.0
+      # Battery jack
+      jstph:
+        what: jstph
+        where:
+          ref: matrix_middle_bottom
+          shift: [5, -15]
+          rotate: -90
+        params:
+          side: B
+          pos: pos
+          neg: GND
+      # Reset switch (horizontal community version)
+      # horizontal_reset:
+      #   what: EVQPUC
+      #   params:
+      #     side: B
+      #     from: GND
+      #     to: RST
+      #   where:
+      #     ref: matrix_sixth_top
+      #     shift: [9.0, 2.8]
+      #     rotate: -90.0
+      # # Battery on/off switch
+      # battery_switch:
+      #   what: slider
+      #   where:
+      #     ref: matrix_sixth_top
+      #     shift: [8.8, -6.0]
+      #     rotate: -90
+      #   params:
+      #     side: B
+      #     from: pos
+      #     to: RAW
