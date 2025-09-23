@@ -87,7 +87,7 @@ pcbs:
           from: "{{colrow}}"
           to: "{{row_net}}"
         adjust:
-          shift: [0, -5]
+          shift: [2, -5]
       nice_nano:
         what: nice_nano
         params:
