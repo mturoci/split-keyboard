@@ -7,6 +7,9 @@ units:
   # Padding Variables
   px: kx + 2
   py: ky + 2
+  # Outline padding
+  opx: px / 2
+  opy: py / 2
 points:
   zones:
     matrix:
@@ -49,19 +52,19 @@ outlines:
       operation: stack
       points:
         - ref: matrix_outer_top
-          shift: [0, 0]
+          shift: [-opx, opy]
         - ref: matrix_outer_bottom
-          shift: [0, 0]
+          shift: [-opx, -opy]
         - ref: matrix_middle_bottom
-          shift: [0, 0]
+          shift: [-opx, -opy]
         - ref: matrix_middle_thumb
-          shift: [0, 0]
+          shift: [-opx, -opy]
         - ref: matrix_inner_thumb
-          shift: [0, 0]
+          shift: [opx, -opy]
         - ref: matrix_inner_top
-          shift: [0, 0]
+          shift: [opx, opy]
         - ref: matrix_outer_top
-          shift: [0, 0]
+          shift: [0, opy]
 pcbs:
   main:
     outlines:
