@@ -118,13 +118,13 @@ pcbs:
           shift: [-8, -22]
           rotate: 90.0
       # Battery on/off switch
-      # battery_switch:
-      #   what: slider
-      #   where:
-      #     ref: matrix_sixth_top
-      #     shift: [8.8, -6.0]
-      #     rotate: -90
-      #   params:
-      #     side: B
-      #     from: pos
-      #     to: RAW
+      battery_switch:
+        what: slider
+        where:
+          ref: matrix_middle_bottom
+          shift: [-8, -14]
+          rotate: 90.0
+        params:
+          side: B
+          from: pos
+          to: RAW
