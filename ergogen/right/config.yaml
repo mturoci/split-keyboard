@@ -1,0 +1,133 @@
+meta:
+  engine: 4.1.0
+units:
+  # Proxy Spacing Variables
+  kx: cx
+  ky: cy
+  # Padding Variables
+  px: kx + 2
+  py: ky + 2
+  # Outline padding
+  opx: px / 2
+  opy: py / 2
+points:
+  zones:
+    matrix:
+      columns:
+        outer:
+          rows.thumb.skip: true
+          rows.empty.skip: true
+          key.column_net: P022
+        pinky:
+          rows.thumb.skip: true
+          rows.empty.skip: true
+          key.column_net: P020
+        ring:
+          rows.thumb.skip: true
+          rows.empty.skip: true
+          key.column_net: P017
+        middle:
+          rows.empty.skip: true
+          key.column_net: P113
+        index:
+          rows.empty.skip: true
+          key.column_net: P111
+        inner:
+          rows.empty.skip: true
+          key.column_net: P115
+      rows:
+        thumb:
+          row_net: P010
+        empty:
+        bottom:
+          row_net: P011
+        home:
+          row_net: P100
+        top:
+          row_net: P024
+      anchor:
+        # Shift the PCB slightly to the right and down, otherwise it's weirdly positioned outside of the main sheet in KiCad
+        shift: [100, -150]
+outlines:
+  raw:
+    - what: polygon
+      operation: stack
+      points:
+        - ref: matrix_outer_top
+          shift: [-opx, opy]
+        - ref: matrix_outer_bottom
+          shift: [-opx, -opy]
+        - ref: matrix_middle_bottom
+          shift: [-opx, -opy]
+        - ref: matrix_middle_thumb
+          shift: [-opx, -opy]
+        - ref: matrix_inner_thumb
+          shift: [opx, -opy]
+        - ref: matrix_inner_top
+          shift: [opx, opy]
+        - ref: matrix_outer_top
+          shift: [0, opy]
+pcbs:
+  right:
+    outlines:
+      right:
+        outline: raw
+    footprints:
+      choc_hotswap:
+        what: choc
+        where: true
+        params:
+          keycaps: true
+          reverse: false
+          hotswap: true
+          from: "{{column_net}}"
+          to: "{{colrow}}"
+      diode:
+        what: diode
+        where: true
+        params:
+          from: "{{colrow}}"
+          to: "{{row_net}}"
+        adjust:
+          shift: [2, -5]
+      nice_nano:
+        what: nice_nano
+        params:
+          orientation: up
+        where:
+          ref: matrix_inner_thumb
+          shift: [-9, 18]
+          rotate: 180.0
+      # Battery jack
+      jstph:
+        what: jstph
+        where:
+          ref: matrix_middle_bottom
+          shift: [5, -15]
+          rotate: -90
+        params:
+          side: B
+          pos: pos
+          neg: GND
+      # Reset switch (horizontal community version)
+      horizontal_reset:
+        what: EVQPUC
+        params:
+          side: B
+          from: GND
+          to: RST
+        where:
+          ref: matrix_middle_bottom
+          shift: [-8, -22]
+          rotate: 90.0
+      # Battery on/off switch
+      battery_switch:
+        what: slider
+        where:
+          ref: matrix_middle_bottom
+          shift: [-8, -14]
+          rotate: 90.0
+        params:
+          side: B
+          from: pos
+          to: RAW

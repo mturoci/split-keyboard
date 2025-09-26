@@ -68,9 +68,9 @@ outlines:
         - ref: matrix_outer_top
           shift: [0, opy]
 pcbs:
-  main:
+  left:
     outlines:
-      main:
+      left:
         outline: raw
     footprints:
       choc_hotswap:
