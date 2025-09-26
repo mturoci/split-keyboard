@@ -195,7 +195,7 @@
   
         
       (module PG1350 (layer F.Cu) (tedit 5DD50112)
-      (at 0 -38 0)
+      (at 100 112 0)
 
       
       (fp_text reference "S1" (at 0 0) (layer F.SilkS) hide (effects (font (size 1.27 1.27) (thickness 0.15))))
@@ -238,7 +238,7 @@
 
         
       (module PG1350 (layer F.Cu) (tedit 5DD50112)
-      (at 0 -57 0)
+      (at 100 93 0)
 
       
       (fp_text reference "S2" (at 0 0) (layer F.SilkS) hide (effects (font (size 1.27 1.27) (thickness 0.15))))
@@ -281,7 +281,7 @@
 
         
       (module PG1350 (layer F.Cu) (tedit 5DD50112)
-      (at 0 -76 0)
+      (at 100 74 0)
 
       
       (fp_text reference "S3" (at 0 0) (layer F.SilkS) hide (effects (font (size 1.27 1.27) (thickness 0.15))))
@@ -324,7 +324,7 @@
 
         
       (module PG1350 (layer F.Cu) (tedit 5DD50112)
-      (at 19 -38 0)
+      (at 119 112 0)
 
       
       (fp_text reference "S4" (at 0 0) (layer F.SilkS) hide (effects (font (size 1.27 1.27) (thickness 0.15))))
@@ -367,7 +367,7 @@
 
         
       (module PG1350 (layer F.Cu) (tedit 5DD50112)
-      (at 19 -57 0)
+      (at 119 93 0)
 
       
       (fp_text reference "S5" (at 0 0) (layer F.SilkS) hide (effects (font (size 1.27 1.27) (thickness 0.15))))
@@ -410,7 +410,7 @@
 
         
       (module PG1350 (layer F.Cu) (tedit 5DD50112)
-      (at 19 -76 0)
+      (at 119 74 0)
 
       
       (fp_text reference "S6" (at 0 0) (layer F.SilkS) hide (effects (font (size 1.27 1.27) (thickness 0.15))))
@@ -453,7 +453,7 @@
 
         
       (module PG1350 (layer F.Cu) (tedit 5DD50112)
-      (at 38 -38 0)
+      (at 138 112 0)
 
       
       (fp_text reference "S7" (at 0 0) (layer F.SilkS) hide (effects (font (size 1.27 1.27) (thickness 0.15))))
@@ -496,7 +496,7 @@
 
         
       (module PG1350 (layer F.Cu) (tedit 5DD50112)
-      (at 38 -57 0)
+      (at 138 93 0)
 
       
       (fp_text reference "S8" (at 0 0) (layer F.SilkS) hide (effects (font (size 1.27 1.27) (thickness 0.15))))
@@ -539,7 +539,7 @@
 
         
       (module PG1350 (layer F.Cu) (tedit 5DD50112)
-      (at 38 -76 0)
+      (at 138 74 0)
 
       
       (fp_text reference "S9" (at 0 0) (layer F.SilkS) hide (effects (font (size 1.27 1.27) (thickness 0.15))))
@@ -582,7 +582,7 @@
 
         
       (module PG1350 (layer F.Cu) (tedit 5DD50112)
-      (at 57 0 0)
+      (at 157 150 0)
 
       
       (fp_text reference "S10" (at 0 0) (layer F.SilkS) hide (effects (font (size 1.27 1.27) (thickness 0.15))))
@@ -625,7 +625,7 @@
 
         
       (module PG1350 (layer F.Cu) (tedit 5DD50112)
-      (at 57 -38 0)
+      (at 157 112 0)
 
       
       (fp_text reference "S11" (at 0 0) (layer F.SilkS) hide (effects (font (size 1.27 1.27) (thickness 0.15))))
@@ -668,7 +668,7 @@
 
         
       (module PG1350 (layer F.Cu) (tedit 5DD50112)
-      (at 57 -57 0)
+      (at 157 93 0)
 
       
       (fp_text reference "S12" (at 0 0) (layer F.SilkS) hide (effects (font (size 1.27 1.27) (thickness 0.15))))
@@ -711,7 +711,7 @@
 
         
       (module PG1350 (layer F.Cu) (tedit 5DD50112)
-      (at 57 -76 0)
+      (at 157 74 0)
 
       
       (fp_text reference "S13" (at 0 0) (layer F.SilkS) hide (effects (font (size 1.27 1.27) (thickness 0.15))))
@@ -754,7 +754,7 @@
 
         
       (module PG1350 (layer F.Cu) (tedit 5DD50112)
-      (at 76 0 0)
+      (at 176 150 0)
 
       
       (fp_text reference "S14" (at 0 0) (layer F.SilkS) hide (effects (font (size 1.27 1.27) (thickness 0.15))))
@@ -797,7 +797,7 @@
 
         
       (module PG1350 (layer F.Cu) (tedit 5DD50112)
-      (at 76 -38 0)
+      (at 176 112 0)
 
       
       (fp_text reference "S15" (at 0 0) (layer F.SilkS) hide (effects (font (size 1.27 1.27) (thickness 0.15))))
@@ -840,7 +840,7 @@
 
         
       (module PG1350 (layer F.Cu) (tedit 5DD50112)
-      (at 76 -57 0)
+      (at 176 93 0)
 
       
       (fp_text reference "S16" (at 0 0) (layer F.SilkS) hide (effects (font (size 1.27 1.27) (thickness 0.15))))
@@ -883,7 +883,7 @@
 
         
       (module PG1350 (layer F.Cu) (tedit 5DD50112)
-      (at 76 -76 0)
+      (at 176 74 0)
 
       
       (fp_text reference "S17" (at 0 0) (layer F.SilkS) hide (effects (font (size 1.27 1.27) (thickness 0.15))))
@@ -926,7 +926,7 @@
 
         
       (module PG1350 (layer F.Cu) (tedit 5DD50112)
-      (at 95 0 0)
+      (at 195 150 0)
 
       
       (fp_text reference "S18" (at 0 0) (layer F.SilkS) hide (effects (font (size 1.27 1.27) (thickness 0.15))))
@@ -969,7 +969,7 @@
 
         
       (module PG1350 (layer F.Cu) (tedit 5DD50112)
-      (at 95 -38 0)
+      (at 195 112 0)
 
       
       (fp_text reference "S19" (at 0 0) (layer F.SilkS) hide (effects (font (size 1.27 1.27) (thickness 0.15))))
@@ -1012,7 +1012,7 @@
 
         
       (module PG1350 (layer F.Cu) (tedit 5DD50112)
-      (at 95 -57 0)
+      (at 195 93 0)
 
       
       (fp_text reference "S20" (at 0 0) (layer F.SilkS) hide (effects (font (size 1.27 1.27) (thickness 0.15))))
@@ -1055,7 +1055,7 @@
 
         
       (module PG1350 (layer F.Cu) (tedit 5DD50112)
-      (at 95 -76 0)
+      (at 195 74 0)
 
       
       (fp_text reference "S21" (at 0 0) (layer F.SilkS) hide (effects (font (size 1.27 1.27) (thickness 0.15))))
@@ -1100,7 +1100,7 @@
     (module ComboDiode (layer F.Cu) (tedit 5B24D78E)
 
 
-        (at 2 -33 0)
+        (at 102 117 0)
 
         
         (fp_text reference "D1" (at 0 0) (layer F.SilkS) hide (effects (font (size 1.27 1.27) (thickness 0.15))))
@@ -1139,7 +1139,7 @@
     (module ComboDiode (layer F.Cu) (tedit 5B24D78E)
 
 
-        (at 2 -52 0)
+        (at 102 98 0)
 
         
         (fp_text reference "D2" (at 0 0) (layer F.SilkS) hide (effects (font (size 1.27 1.27) (thickness 0.15))))
@@ -1178,7 +1178,7 @@
     (module ComboDiode (layer F.Cu) (tedit 5B24D78E)
 
 
-        (at 2 -71 0)
+        (at 102 79 0)
 
         
         (fp_text reference "D3" (at 0 0) (layer F.SilkS) hide (effects (font (size 1.27 1.27) (thickness 0.15))))
@@ -1217,7 +1217,7 @@
     (module ComboDiode (layer F.Cu) (tedit 5B24D78E)
 
 
-        (at 21 -33 0)
+        (at 121 117 0)
 
         
         (fp_text reference "D4" (at 0 0) (layer F.SilkS) hide (effects (font (size 1.27 1.27) (thickness 0.15))))
@@ -1256,7 +1256,7 @@
     (module ComboDiode (layer F.Cu) (tedit 5B24D78E)
 
 
-        (at 21 -52 0)
+        (at 121 98 0)
 
         
         (fp_text reference "D5" (at 0 0) (layer F.SilkS) hide (effects (font (size 1.27 1.27) (thickness 0.15))))
@@ -1295,7 +1295,7 @@
     (module ComboDiode (layer F.Cu) (tedit 5B24D78E)
 
 
-        (at 21 -71 0)
+        (at 121 79 0)
 
         
         (fp_text reference "D6" (at 0 0) (layer F.SilkS) hide (effects (font (size 1.27 1.27) (thickness 0.15))))
@@ -1334,7 +1334,7 @@
     (module ComboDiode (layer F.Cu) (tedit 5B24D78E)
 
 
-        (at 40 -33 0)
+        (at 140 117 0)
 
         
         (fp_text reference "D7" (at 0 0) (layer F.SilkS) hide (effects (font (size 1.27 1.27) (thickness 0.15))))
@@ -1373,7 +1373,7 @@
     (module ComboDiode (layer F.Cu) (tedit 5B24D78E)
 
 
-        (at 40 -52 0)
+        (at 140 98 0)
 
         
         (fp_text reference "D8" (at 0 0) (layer F.SilkS) hide (effects (font (size 1.27 1.27) (thickness 0.15))))
@@ -1412,7 +1412,7 @@
     (module ComboDiode (layer F.Cu) (tedit 5B24D78E)
 
 
-        (at 40 -71 0)
+        (at 140 79 0)
 
         
         (fp_text reference "D9" (at 0 0) (layer F.SilkS) hide (effects (font (size 1.27 1.27) (thickness 0.15))))
@@ -1451,7 +1451,7 @@
     (module ComboDiode (layer F.Cu) (tedit 5B24D78E)
 
 
-        (at 59 5 0)
+        (at 159 155 0)
 
         
         (fp_text reference "D10" (at 0 0) (layer F.SilkS) hide (effects (font (size 1.27 1.27) (thickness 0.15))))
@@ -1490,7 +1490,7 @@
     (module ComboDiode (layer F.Cu) (tedit 5B24D78E)
 
 
-        (at 59 -33 0)
+        (at 159 117 0)
 
         
         (fp_text reference "D11" (at 0 0) (layer F.SilkS) hide (effects (font (size 1.27 1.27) (thickness 0.15))))
@@ -1529,7 +1529,7 @@
     (module ComboDiode (layer F.Cu) (tedit 5B24D78E)
 
 
-        (at 59 -52 0)
+        (at 159 98 0)
 
         
         (fp_text reference "D12" (at 0 0) (layer F.SilkS) hide (effects (font (size 1.27 1.27) (thickness 0.15))))
@@ -1568,7 +1568,7 @@
     (module ComboDiode (layer F.Cu) (tedit 5B24D78E)
 
 
-        (at 59 -71 0)
+        (at 159 79 0)
 
         
         (fp_text reference "D13" (at 0 0) (layer F.SilkS) hide (effects (font (size 1.27 1.27) (thickness 0.15))))
@@ -1607,7 +1607,7 @@
     (module ComboDiode (layer F.Cu) (tedit 5B24D78E)
 
 
-        (at 78 5 0)
+        (at 178 155 0)
 
         
         (fp_text reference "D14" (at 0 0) (layer F.SilkS) hide (effects (font (size 1.27 1.27) (thickness 0.15))))
@@ -1646,7 +1646,7 @@
     (module ComboDiode (layer F.Cu) (tedit 5B24D78E)
 
 
-        (at 78 -33 0)
+        (at 178 117 0)
 
         
         (fp_text reference "D15" (at 0 0) (layer F.SilkS) hide (effects (font (size 1.27 1.27) (thickness 0.15))))
@@ -1685,7 +1685,7 @@
     (module ComboDiode (layer F.Cu) (tedit 5B24D78E)
 
 
-        (at 78 -52 0)
+        (at 178 98 0)
 
         
         (fp_text reference "D16" (at 0 0) (layer F.SilkS) hide (effects (font (size 1.27 1.27) (thickness 0.15))))
@@ -1724,7 +1724,7 @@
     (module ComboDiode (layer F.Cu) (tedit 5B24D78E)
 
 
-        (at 78 -71 0)
+        (at 178 79 0)
 
         
         (fp_text reference "D17" (at 0 0) (layer F.SilkS) hide (effects (font (size 1.27 1.27) (thickness 0.15))))
@@ -1763,7 +1763,7 @@
     (module ComboDiode (layer F.Cu) (tedit 5B24D78E)
 
 
-        (at 97 5 0)
+        (at 197 155 0)
 
         
         (fp_text reference "D18" (at 0 0) (layer F.SilkS) hide (effects (font (size 1.27 1.27) (thickness 0.15))))
@@ -1802,7 +1802,7 @@
     (module ComboDiode (layer F.Cu) (tedit 5B24D78E)
 
 
-        (at 97 -33 0)
+        (at 197 117 0)
 
         
         (fp_text reference "D19" (at 0 0) (layer F.SilkS) hide (effects (font (size 1.27 1.27) (thickness 0.15))))
@@ -1841,7 +1841,7 @@
     (module ComboDiode (layer F.Cu) (tedit 5B24D78E)
 
 
-        (at 97 -52 0)
+        (at 197 98 0)
 
         
         (fp_text reference "D20" (at 0 0) (layer F.SilkS) hide (effects (font (size 1.27 1.27) (thickness 0.15))))
@@ -1880,7 +1880,7 @@
     (module ComboDiode (layer F.Cu) (tedit 5B24D78E)
 
 
-        (at 97 -71 0)
+        (at 197 79 0)
 
         
         (fp_text reference "D21" (at 0 0) (layer F.SilkS) hide (effects (font (size 1.27 1.27) (thickness 0.15))))
@@ -1917,7 +1917,7 @@
 
           
       (module nice_nano (layer F.Cu) (tedit 6058B206)
-      (at 86 -18 180)
+      (at 186 132 180)
 
       
       (fp_text reference "MCU1" (at 0 0) (layer F.SilkS) hide (effects (font (size 1.2 1.2) (thickness 0.2032))))
@@ -2025,7 +2025,7 @@
         (descr "JST PH series connector, S2B-PH-K, side entry type, through hole, Datasheet: http://www.jst-mfg.com/product/pdf/eng/ePH.pdf")
         (tags "connector jst ph")
 
-        (at 62 -23 -90)
+        (at 162 127 -90)
 
         
         (fp_text reference "JST1" (at 0 0) (layer F.SilkS) hide (effects (font (size 1.27 1.27) (thickness 0.15))))
@@ -2056,7 +2056,7 @@
         (descr "http://industrial.panasonic.com/cdbs/www-data/pdf/ATV0000/ATV0000CE5.pdf")
         (tags "SMD SMT SPST EVQPUL EVQPUC")
 
-        (at 49 -16 90)
+        (at 149 134 90)
         
         (fp_text reference "B1" (at 0 0) (layer "F.SilkS") hide (effects (font (size 1 1) (thickness 0.15))))
         (fp_text value "Panasonic_EVQPUL_EVQPUC" (at 0 3.5) (layer "F.Fab") hide (effects (font (size 1 1) (thickness 0.15))))
@@ -2093,7 +2093,7 @@
         
         (module E73:SPDT_C128955 (layer F.Cu) (tstamp 5BF2CC3C)
 
-            (at 49 -24 90)
+            (at 149 126 90)
 
             
             (fp_text reference "T1" (at 0 0) (layer F.SilkS) hide (effects (font (size 1.27 1.27) (thickness 0.15))))
@@ -2129,12 +2129,12 @@
         )
         
         
-  (gr_line (start -10 -85.5) (end 105 -85.5) (angle 90) (layer Edge.Cuts) (width 0.15))
-(gr_line (start -10 -85.5) (end -10 -28.5) (angle 90) (layer Edge.Cuts) (width 0.15))
-(gr_line (start -10 -28.5) (end 47 -28.5) (angle 90) (layer Edge.Cuts) (width 0.15))
-(gr_line (start 47 -28.5) (end 47 9.5) (angle 90) (layer Edge.Cuts) (width 0.15))
-(gr_line (start 47 9.5) (end 105 9.5) (angle 90) (layer Edge.Cuts) (width 0.15))
-(gr_line (start 105 9.5) (end 105 -85.5) (angle 90) (layer Edge.Cuts) (width 0.15))
+  (gr_line (start 90 64.5) (end 205 64.5) (angle 90) (layer Edge.Cuts) (width 0.15))
+(gr_line (start 90 64.5) (end 90 121.5) (angle 90) (layer Edge.Cuts) (width 0.15))
+(gr_line (start 90 121.5) (end 147 121.5) (angle 90) (layer Edge.Cuts) (width 0.15))
+(gr_line (start 147 121.5) (end 147 159.5) (angle 90) (layer Edge.Cuts) (width 0.15))
+(gr_line (start 147 159.5) (end 205 159.5) (angle 90) (layer Edge.Cuts) (width 0.15))
+(gr_line (start 205 159.5) (end 205 64.5) (angle 90) (layer Edge.Cuts) (width 0.15))
 
 )
 

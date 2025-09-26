@@ -45,6 +45,9 @@ points:
           row_net: P100
         top:
           row_net: P024
+      anchor:
+        # Shift the PCB slightly to the right and down, otherwise it's weirdly positioned outside of the main sheet in KiCad
+        shift: [100, -150]
 outlines:
   raw:
     - what: polygon
