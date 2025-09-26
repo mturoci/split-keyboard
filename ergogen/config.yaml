@@ -17,34 +17,34 @@ points:
         outer:
           rows.thumb.skip: true
           rows.empty.skip: true
-          key.column_net: P031
+          key.column_net: P022
         pinky:
           rows.thumb.skip: true
           rows.empty.skip: true
-          key.column_net: P029
+          key.column_net: P020
         ring:
           rows.thumb.skip: true
           rows.empty.skip: true
-          key.column_net: P002
+          key.column_net: P017
         middle:
           rows.empty.skip: true
-          key.column_net: P115
+          key.column_net: P113
         index:
           rows.empty.skip: true
-          key.column_net: P113
+          key.column_net: P111
         inner:
           rows.empty.skip: true
-          key.column_net: P111
+          key.column_net: P115
       rows:
         thumb:
           row_net: P010
         empty:
         bottom:
-          row_net: P017
+          row_net: P011
         home:
-          row_net: P020
+          row_net: P100
         top:
-          row_net: P022
+          row_net: P024
 outlines:
   raw:
     - what: polygon
