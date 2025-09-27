@@ -14,25 +14,25 @@ points:
   zones:
     matrix:
       columns:
-        outer:
-          rows.thumb.skip: true
+        inner:
           rows.empty.skip: true
           key.column_net: P022
-        pinky:
-          rows.thumb.skip: true
+        index:
           rows.empty.skip: true
           key.column_net: P020
+        middle:
+          rows.empty.skip: true
+          key.column_net: P017
         ring:
           rows.thumb.skip: true
           rows.empty.skip: true
-          key.column_net: P017
-        middle:
-          rows.empty.skip: true
           key.column_net: P113
-        index:
+        pinky:
+          rows.thumb.skip: true
           rows.empty.skip: true
           key.column_net: P111
-        inner:
+        outer:
+          rows.thumb.skip: true
           rows.empty.skip: true
           key.column_net: P115
       rows:
@@ -54,17 +54,17 @@ outlines:
       operation: stack
       points:
         - ref: matrix_outer_top
-          shift: [-opx, opy]
-        - ref: matrix_outer_bottom
-          shift: [-opx, -opy]
-        - ref: matrix_middle_bottom
-          shift: [-opx, -opy]
-        - ref: matrix_middle_thumb
-          shift: [-opx, -opy]
-        - ref: matrix_inner_thumb
-          shift: [opx, -opy]
-        - ref: matrix_inner_top
           shift: [opx, opy]
+        - ref: matrix_outer_bottom
+          shift: [opx, -opy]
+        - ref: matrix_middle_bottom
+          shift: [opx, -opy]
+        - ref: matrix_middle_thumb
+          shift: [opx, -opy]
+        - ref: matrix_inner_thumb
+          shift: [-opx, -opy]
+        - ref: matrix_inner_top
+          shift: [-opx, opy]
         - ref: matrix_outer_top
           shift: [0, opy]
 pcbs:
