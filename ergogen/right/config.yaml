@@ -102,8 +102,8 @@ pcbs:
         what: jstph
         where:
           ref: matrix_middle_bottom
-          shift: [5, -15]
-          rotate: -90
+          shift: [-3, -15]
+          rotate: 90
         params:
           side: B
           pos: pos
@@ -117,15 +117,15 @@ pcbs:
           to: RST
         where:
           ref: matrix_middle_bottom
-          shift: [-8, -22]
-          rotate: 90.0
+          shift: [8, -22]
+          rotate: -90.0
       # Battery on/off switch
       battery_switch:
         what: slider
         where:
           ref: matrix_middle_bottom
-          shift: [-8, -14]
-          rotate: 90.0
+          shift: [8, -14]
+          rotate: -90.0
         params:
           side: B
           from: pos
