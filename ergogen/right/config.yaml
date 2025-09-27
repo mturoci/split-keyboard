@@ -130,3 +130,8 @@ pcbs:
           side: B
           from: pos
           to: RAW
+      hole:
+        what: mountinghole
+        where:
+          ref: matrix_middle_bottom
+          shift: [0, -23]
