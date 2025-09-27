@@ -96,8 +96,7 @@ pcbs:
           orientation: up
         where:
           ref: matrix_inner_thumb
-          shift: [-9, 18]
-          rotate: 180.0
+          shift: [9.5, 18]
       # Battery jack
       jstph:
         what: jstph
