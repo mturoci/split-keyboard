@@ -315,7 +315,7 @@
       },
       {
         "netclass": "Default",
-        "pattern": "P113"
+        "pattern": "P111"
       },
       {
         "netclass": "Default",
@@ -335,7 +335,7 @@
       },
       {
         "netclass": "Default",
-        "pattern": "P111"
+        "pattern": "P113"
       },
       {
         "netclass": "Default",

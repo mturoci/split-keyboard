@@ -28,10 +28,10 @@ points:
           key.column_net: P017
         middle:
           rows.empty.skip: true
-          key.column_net: P113
+          key.column_net: P111
         index:
           rows.empty.skip: true
-          key.column_net: P111
+          key.column_net: P113
         inner:
           rows.empty.skip: true
           key.column_net: P115
