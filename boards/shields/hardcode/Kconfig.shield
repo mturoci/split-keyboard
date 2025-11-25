@@ -1,0 +1,8 @@
+# Copyright (c) 2024
+# SPDX-License-Identifier: MIT
+
+config SHIELD_HARDCODE_LEFT
+    def_bool $(shields_list_contains,hardcode_left)
+
+config SHIELD_HARDCODE_RIGHT
+    def_bool $(shields_list_contains,hardcode_right)

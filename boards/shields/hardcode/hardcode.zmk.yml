@@ -1,0 +1,13 @@
+file_format: "1"
+id: hardcode
+name: Hardcode
+type: shield
+url: https://github.com/mturoci/split-keyboard
+requires: [pro_micro]
+exposes: [i2c_oled]
+features:
+  - keys
+  - display
+siblings:
+  - hardcode_left
+  - hardcode_right
