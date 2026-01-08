@@ -9,6 +9,18 @@
 #include <dt-bindings/zmk/bt.h>
 
 / {
+        behaviors {
+                // Tap: repeat last key, Hold: left alt
+                alt_repeat: alt_key_repeat {
+                        compatible = "zmk,behavior-hold-tap";
+                        #binding-cells = <2>;
+                        tapping-term-ms = <200>;
+                        quick-tap-ms = <0>;
+                        flavor = "tap-preferred";
+                        bindings = <&kp>, <&key_repeat>;
+                };
+        };
+
         keymap {
                 compatible = "zmk,keymap";
 
@@ -23,7 +35,7 @@
    &lt 2 TAB &kp Q &kp W &kp E &kp R &kp T   &kp Y &kp U  &kp I     &kp O   &kp P    &kp EQUAL
    &lt 1 ESC &kp A &kp S &kp D &kp F &kp G   &kp H &kp J  &kp K     &kp L   &kp SEMI &kp SQT
    &kp LSHFT &kp Z &kp X &kp C &kp V &kp B   &kp N &kp M  &kp COMMA &kp DOT &kp FSLH &kp MINUS
-                  &kp LCTRL &kp LALT &kp LGUI   &kp RET &kp SPACE &kp BSPC
+                  &kp LCTRL &alt_repeat LALT 0 &kp LGUI   &kp RET &kp SPACE &kp BSPC
                         >;
                 };
                 lower_layer {
