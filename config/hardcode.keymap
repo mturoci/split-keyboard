@@ -43,7 +43,6 @@
                 compatible = "zmk,keymap";
 
                 default_layer {
-                        display-name = "Default Layer";
 // -----------------------------------------------------------------------------------------
 // | TAB  |  Q  |  W  |  E  |  R  |  T  |   |  Y  |  U   |  I  |  O  |  P  | = |
 // | ESC  |  A  |  S  |  D  |  F  |  G  |   |  H  |  J   |  K  |  L  |  ;  | ' |
@@ -51,15 +50,13 @@
 //                    | CTRL | OPTION | CMD |   | ENT | SPACE  | BACKSPACE |
                         bindings = <
    &lt 2 TAB &kp Q &kp W &kp E &kp R &kp T   &kp Y &kp U  &kp I     &kp O   &kp P    &kp EQUAL
-   &lt 1 ESC &kp A &kp S &kp D &lt 2 F &kp G   &kp H &kp J  &kp K     &kp L   &kp SEMI &kp SQT
+   &lt 1 ESC &kp A &kp S &lt 2 D &lt 1 F &kp G   &kp H &lt 1 J  &lt 3 K     &kp L   &kp SEMI &kp SQT
    &shift_mod LSHIFT 0 &kp Z &kp X &kp C &kp V &kp B   &kp N &kp M  &kp COMMA &kp DOT &kp FSLH &kp MINUS
                   &kp LCTRL &alt_repeat LALT 0 &kp LGUI   &kp RET &kp SPACE &kp BSPC
                         >;
                 };
                 lower_layer {
-                        display-name = "Lower Layer";
 // -----------------------------------------------------------------------------------------
-// Get into this layer by holding ESC key.
 // | TAB  | 1 | 2 | 3 | 4 | 5 |   | 6 | 7 | 8 | 9  | 0  |     |
 // | ESC  | ! | @ | # | $ | % |   | ^ | & | * | \  | up |  `  |
 // | SHFT |BT1|BT2|BT3|BT4|BT5|   |   |   |   |left|down|right|
@@ -72,10 +69,8 @@
                         >;
                 };
 
-                raise_layer {
-                        display-name = "Raise Layer";
+                mouse_layer {
 // -----------------------------------------------------------------------------------------
-// Get into this layer by holding F key.
 // |  TAB |  f1  |  f2  |  f3  |  f4  |  f5  |   | SCRL← | SCRL↓ | SCRL↑ | SCRL→ |       | mute |
 // | CTRL |  f6  |  f7  |  f8  |  f9  | f10  |   | MOVE← | MOVE↓ | MOVE↑ | MOVE→ |       | vol+ |
 // | SHFT |  f11 |  f12 |      |      |      |   | FAST← | FAST↓ | FAST↑ | FAST→ |       | vol- |
@@ -84,7 +79,20 @@
    &trans    &kp F1   &kp F2   &kp F3   &kp F4   &kp F5    &msc SCRL_LEFT &msc SCRL_DOWN &msc SCRL_UP &msc SCRL_RIGHT &kp C_BRI_UP   &kp C_MUTE
    &trans    &kp F6   &kp F7   &kp F8   &kp F9   &kp F10   &mmv MOVE_LEFT &mmv MOVE_DOWN &mmv MOVE_UP &mmv MOVE_RIGHT &kp C_BRI_DN   &kp C_VOL_UP
    &shift_mod LSHIFT 0 &kp F11  &kp F12  &trans   &trans   &mmv MOVE_X(-1200) &mmv MOVE_Y(1200) &mmv MOVE_Y(-1200) &mmv MOVE_X(1200) &trans &kp C_VOL_DN
-                             &trans   &trans   &trans      &trans   &trans    &trans
+                             &trans   &MB4   &MB5      &LCLK   &MCLK    &RCLK
+                        >;
+                };
+                raise_layer {
+// -----------------------------------------------------------------------------------------
+// | TAB  | 1 | 2 | 3 | 4 | 5 |     | 6 | 7 | 8 | 9  | 0  |     |
+// | ESC  | ! | @ | # | $ | % |     | ^ | & | * | \  | up |  `  |
+// | SHFT |BT1|BT2|BT3|BT4|BT5|     |   |   |   |left|down|right|
+//                    | CTRL | OPTION | CMD |   | ENT | SPACE  | BACKSPACE |
+                        bindings = <
+   &trans    &kp N1       &kp N2       &kp N3       &kp N4       &kp N5            &kp N6    &kp N7    &kp N8    &kp N9   &kp N0   &trans
+   &trans    &kp EXCL     &kp AT       &kp HASH     &kp DLLR     &kp PRCNT         &kp CARET &kp AMPS  &kp ASTRK &kp BSLH &kp UP   &kp GRAVE
+   &shift_mod LSHIFT 0 &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3 &bt BT_SEL 4      &trans    &trans    &trans    &kp LEFT &kp DOWN &kp RIGHT
+                  &kp LCTRL &alt_repeat LALT 0 &kp LGUI   &kp RET &kp SPACE &kp BSPC
                         >;
                 };
         };
