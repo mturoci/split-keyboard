@@ -52,10 +52,10 @@
 // | SHFT | ` |BT1|BT2| [ | ] |   | | | | | | |
 //                      | | | |   | | |
                         bindings = <
-   &trans               &kp N1      &kp N2        &kp N3        &kp N4    &kp N5    &trans  &trans  &trans  &trans  &trans  &trans
-   &trans               &kp N6      &kp N7        &kp N8        &kp N9    &kp N0    &trans  &trans  &trans  &trans  &trans  &trans
-   &shift_mod LSHIFT 0  &kp GRAVE   &bt BT_SEL 0  &bt BT_SEL 1  &kp LBKT  &kp RBKT  &trans  &trans  &trans  &trans  &trans  &trans
-                                                  &trans        &trans    &trans    &trans  &trans  &trans
+   &trans               &kp N1      &kp N2    &kp N3  &kp N4    &kp N5    &trans  &trans  &trans  &trans  &trans  &trans
+   &trans               &kp N6      &kp N7    &kp N8  &kp N9    &kp N0    &trans  &trans  &trans  &trans  &trans  &trans
+   &shift_mod LSHIFT 0  &kp GRAVE   &kp BSLH  &trans  &kp LBKT  &kp RBKT  &trans  &trans  &trans  &trans  &trans  &trans
+                                              &trans  &trans    &trans    &trans  &trans  &trans
                         >;
                 };
 
@@ -63,12 +63,12 @@
 // -----------------------------------------------------------------------------------------
 // | TAB  | f1  | f2  | f3 | f4 | f5 |   | SCRL← | SCRL↓ | SCRL↑ | SCRL→ | bright+  | mute |
 // | CTRL | f6  | f7  | f8 | f9 | f10|   | ←     | ↓     | ↑     | →     | bright-  | vol+ |
-// | SHFT | f11 | f12 |BT3 | BT4| BT5|   | MOVE← | MOVE↓ | MOVE↑ | MOVE→ |          | vol- |
+// | SHFT | f11 | f12 |BT1 | BT2| BT3|   | MOVE← | MOVE↓ | MOVE↑ | MOVE→ |          | vol- |
 //                    |    |    |    |   |       |       |       |
                         bindings = <
    &trans               &kp F1   &kp F2   &kp F3        &kp F4        &kp F5        &msc SCRL_LEFT  &msc SCRL_DOWN  &msc SCRL_UP  &msc SCRL_RIGHT &kp C_BRI_INC  &kp C_MUTE
    &trans               &kp F6   &kp F7   &kp F8        &kp F9        &kp F10       &kp LEFT        &kp DOWN        &kp UP        &kp RIGHT       &kp C_BRI_DEC  &kp C_VOL_UP
-   &shift_mod LSHIFT 0  &kp F11  &kp F12  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 3  &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_UP  &mmv MOVE_RIGHT &trans         &kp C_VOL_DN
+   &shift_mod LSHIFT 0  &kp F11  &kp F12  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_UP  &mmv MOVE_RIGHT &trans         &kp C_VOL_DN
                                           &trans        &trans        &trans        &mkp LCLK       &mkp MCLK       &mkp RCLK
                         >;
                 };
